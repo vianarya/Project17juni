@@ -1,8 +1,8 @@
 using UnityEngine;
-using UnityEngine, InputSytem;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(SpriteRenderer2D))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class CarController : MonoBehaviour
 {   
 
